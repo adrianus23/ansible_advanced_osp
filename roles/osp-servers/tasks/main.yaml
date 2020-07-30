@@ -5,7 +5,7 @@
     cloud: openstack
     name: "{{ item.name }}"
     image: "{{ item.image }}"
-    key_name: ansible_key
+    key_name: ansible_ssh
     flavor: "{{ item.flavor }}"
     security_groups: "{{ item.security_groups }}"
     delete_fip: yes
